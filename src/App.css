@@ -1,38 +1,41 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+  /* Use a modern, aesthetic, and clean-looking font */
+  font-family: 'Helvetica Neue', Arial, sans-serif; 
+  color: #333; /* Soft black text */
+  background-color: #f7f7f7; /* Very light grey background */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Typography for a clean, aesthetic look */
+h1 {
+  font-weight: 300; /* Light weight for a modern feel */
+  font-size: 3em;
+  letter-spacing: 2px;
+  color: #1a1a1a;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 15px auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Navigation styling */
+nav a {
+  text-decoration: none; /* Remove underline */
+  color: #555; /* Subtle color */
+  font-weight: 500;
+  transition: color 0.3s ease;
+  letter-spacing: 1px;
 }
 
-.App-link {
-  color: #61dafb;
+nav a:hover {
+  color: #000; /* Darker on hover */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Remove default link underline in components */
+.App a {
+  color: inherit;
+  text-decoration: none;
 }
