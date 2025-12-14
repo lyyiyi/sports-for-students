@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/sports-for-students/static/css/main.391e871b.css",
-    "main.js": "/sports-for-students/static/js/main.2a63df56.js",
+    "main.css": "/sports-for-students/static/css/main.e6938589.css",
+    "main.js": "/sports-for-students/static/js/main.2f812cff.js",
     "static/js/453.cb2da22e.chunk.js": "/sports-for-students/static/js/453.cb2da22e.chunk.js",
     "index.html": "/sports-for-students/index.html",
-    "main.391e871b.css.map": "/sports-for-students/static/css/main.391e871b.css.map",
-    "main.2a63df56.js.map": "/sports-for-students/static/js/main.2a63df56.js.map",
+    "main.e6938589.css.map": "/sports-for-students/static/css/main.e6938589.css.map",
+    "main.2f812cff.js.map": "/sports-for-students/static/js/main.2f812cff.js.map",
     "453.cb2da22e.chunk.js.map": "/sports-for-students/static/js/453.cb2da22e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.391e871b.css",
-    "static/js/main.2a63df56.js"
+    "static/css/main.e6938589.css",
+    "static/js/main.2f812cff.js"
   ]
 }
