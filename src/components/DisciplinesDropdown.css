@@ -1,0 +1,59 @@
+/* src/components/DisciplinesDropdown.css */
+
+.dropdown-container {
+  /* This ensures the dropdown menu positions relative to the 'Disciplines' text */
+  position: relative; 
+  margin: 0 15px; /* Matches the margin of other list items */
+  list-style: none; /* Inherits from App.js, but good to be explicit */
+  cursor: pointer;
+}
+
+.dropdown-title {
+  /* Style for the main "Disciplines" link text */
+  text-decoration: none;
+  color: #555;
+  font-weight: 500;
+  letter-spacing: 1px;
+  /* Match App.css styling */
+  padding: 0 5px; 
+  transition: color 0.3s ease;
+}
+
+.dropdown-title:hover {
+  color: #000;
+}
+
+/* The actual menu that drops down */
+.dropdown-menu {
+  position: absolute;
+  top: 100%; /* Positions the menu right below the 'Disciplines' title */
+  left: 50%;
+  transform: translateX(-50%); /* Centers the menu relative to the title */
+  
+  /* Minimalist Aesthetic Styling */
+  background-color: white; 
+  border: 1px solid #eee; /* Very subtle border */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); /* Subtle shadow */
+  min-width: 150px;
+  z-index: 10; /* Ensures it appears above other content */
+  padding: 5px 0;
+  
+  /* Aesthetic Font/Layout */
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown-menu a {
+  /* Style for individual links inside the dropdown */
+  text-decoration: none;
+  color: #333;
+  padding: 8px 15px;
+  transition: background-color 0.2s ease;
+  font-weight: 400; /* Slightly lighter weight than the main header */
+}
+
+.dropdown-menu a:hover {
+  /* Subtle hover effect */
+  background-color: #f0f0f0; 
+  color: #1a1a1a;
+}
